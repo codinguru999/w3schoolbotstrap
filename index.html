@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W3school</title>
+    <link rel="shortcut icon" href="W3Schools_logo.svg.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3f04a3eb9b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        #ul1 li:hover {
+            background-color: green;
+        }
+
+        #ul2 li {
+            max-width: 200px;
+        }
+        @media screen and (max-width:1000px) {
+            #button{
+                width:100% !important;
+            }
+            #button button{
+                width: 100% !important;
+            }
+            
+        }
+        @media screen and (max-width:300px) {
+            #navbarSupportedContent{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand bg-body-tertiary py-0" style="height: 75px;">
+        <div class="container-fluid h-100">
+            <a class="navbar-brand ps-2" href="#">
+                <img src="W3Schools_logo.svg.png" alt="Bootstrap" width="50" height="35">
+            </a>
+            <div class="navbar-collapse h-100" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100" id="ul1">
+                    <li class="nav-item h-100 py-3 px-2 d-md-none d-block">
+                        <a href="" class="nav-link dropdown-toggle fw-bold fs-6 text-black">Menu</a>
+                    </li>
+                    <li class="nav-item h-100 py-3 px-2 d-none d-md-block">
+                        <a class="nav-link dropdown-toggle fw-bold fs-6 text-black" aria-current="page" href="#">Tutorial</a>
+                    </li>
+                    <li class="nav-item h-100 py-3 px-2 d-none d-md-block">
+                        <a class="nav-link dropdown-toggle fw-bold fs-6 text-black" href="#">References</a>
+                    </li>
+                    <li class="nav-item dropdown h-100 py-3 px-2 d-none d-md-block">
+                        <a class="nav-link dropdown-toggle fw-bold fs-6 text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Examples
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block h-100 py-3 px-2">
+                        <a class="nav-link fw-bold fs-6 text-black">Videos</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto" id="ul2">
+                    <li class="nav-item d-sm-block d-none">
+                        <a class="nav-link" href=""><i class="fa-solid fa-circle-half-stroke fs-5 text-black"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-sm-block d-none">
+                        <a class="nav-link" href=""><i class="fa-solid fa-earth-americas fs-5 text-black"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-sm-block d-none">
+                        <a class="nav-link" href=""><i class="fa-solid fa-magnifying-glass fs-5 text-black"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block rounded-pill bg-info mx-1">
+                        <a class="nav-link px-3 fw-bold" href="">Get Certified</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block bg-warning rounded-pill mx-1">
+                        <a class="nav-link px-3 fw-bold" href="">Create Website</a>
+                    </li>
+                    <li class="nav-item bg-success rounded-pill p-2.5 w-5 h-75 mx-1 text-white">
+                        <a class="nav-link text-white px-5 fw-bold" href="">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-white justify-content-center align-items-center d-flex"
+        style="background-color: #241c27; max-width: 100%; height: 30em;">
+        <div class="container md-10  min-w-75 max-w-50 text-center justify-content-center align-items-center">
+            <h1 class="text-center display-3 fw-bold my-4 mt-5">Learn to Code</h1>
+            <span class="fs-5 my-4 fw-bold" style="color: #FFC0C7;">With the world's largest web developer site.
+            </span>
+            <div class="my-4 d-flex row container mx-auto px-0" style="width:75%; height: 48px;">
+                <input type="text" name="" id="" class="col-10 col-md-8 col-lg-6 me-0 pe-0 h-100 my-0 py-0 ps-3 mx-auto rounded-start-pill"
+                    placeholder="Search our tutorials e.g. HTML">
+                <button class="btn col-2 col-md-2 col-lg-1 ps-0 ms-0 h-100 btn-success my-0 py-0 mx-auto rounded-end-pill"><i
+                        class="fa-solid fa-magnifying-glass text-white"></i></button>
+            </div>
+            <!-- <span>Lorem ipsum dolor sit amet.</span> -->
+            <a href="" class="text-white fw-bold fs-5 my-5 mb-7">Not Sure Where To Begin?</a>
+        </div>
+    </div>
+    <svg class="bg-info-subtle"style="border:rgb(34, 30, 39); margin-top:-5px;" width="100%" height="70"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="rgb(34, 30, 39)"></path>
+    </svg>
+
+    <div class="container-fluid bg-info-subtle">
+        <div class="container row mx-auto">
+            <div class="col-12 col-lg-6 mx-auto d-flex flex-column justify-content-center align-items-center text-center pt-10 mt-5 mb-5">
+                <h1 class="display-1 fw-bold">HTML</h1>
+                <span class="my-3 fs-6 fw-bold">The language for building web pages</span>
+                <div class="container mx-auto d-flex flex-column justify-content-center align-items-center text-center my-10" style="width:13rem">
+
+                    <button class="btn rounded-pill btn-primary w-100 my-2 h-25">Learn HTML</button>
+                    <button class="btn rounded-pill btn-info w-100 my-2 h-25">Video Tutorial</button>
+                    <button class="btn rounded-pill btn-dark w-100 my-2 h-25">HTML References</button>
+                    <button class="btn rounded-pill btn-success w-100 my-2 h-25">Get Certified</button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mx-auto mt-3">
+                <div class="container mx-auto d-none d-sm-flex flex-column mt-5 border h-75 bg-body-secondary shadow">
+
+                    <h4 class="my-3 mt-4">HTML Example:</h4>
+                    <!-- <span class="my-1">Lorem ipsum dolor sit amet.</span> -->
+                    <div class="container w-100 my-2 bg-white border-start border-4 border-success" style="height: 20rem;">
+                        
+                    </div>
+                    <button class="btn btn-success rounded-pill w-25 my-3">Try it Yourself</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark pt-5">
+        <div class="container-fluid text-center pt-4 px-0 mx-0">
+            <div class="row row-cols-lg-2 row-cols-1 mx-auto">
+                <div class="col px-3 px-lg-5 py-1 py-lg-3 mx-auto">
+                    <div class="bg-danger-subtle border rounded p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1 class="display-5 fw-bold my-2">PHP</h1>
+                        <span class="fs-5 fw-bold my-3">Lorem ipsum dolor sit amet.</span>
+                        <button class="btn btn-success rounded-pill text-white fs-6 px-4 fw-bold my-3 mb-4">View More</button>
+                    </div>
+                </div>
+                <div class="col px-3 px-lg-5 py-1 py-lg-3 mx-auto">
+                    <div class="bg-danger-subtle border rounded p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1 class="display-5 fw-bold my-2">PHP</h1>
+                        <span class="fs-5 fw-bold my-3">Lorem ipsum dolor sit amet.</span>
+                        <button class="btn btn-success rounded-pill text-white fs-6 px-4 fw-bold my-3 mb-4">View More</button>
+                    </div>
+                </div>
+                <div class="col px-3 px-lg-5 py-1 py-lg-3 mx-auto">
+                    <div class="bg-danger-subtle border rounded p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1 class="display-5 fw-bold my-2">PHP</h1>
+                        <span class="fs-5 fw-bold my-3">Lorem ipsum dolor sit amet.</span>
+                        <button class="btn btn-success rounded-pill text-white fs-6 px-4 fw-bold my-3 mb-4">View More</button>
+                    </div>
+                </div>
+                <div class="col px-3 px-lg-5 py-1 py-lg-3 mx-auto">
+                    <div class="bg-danger-subtle border rounded p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1 class="display-5 fw-bold my-2">PHP</h1>
+                        <span class="fs-5 fw-bold my-3">Lorem ipsum dolor sit amet.</span>
+                        <button class="btn btn-success rounded-pill text-white fs-6 px-4 fw-bold my-3 mb-4">View More</button>
+                    </div>
+                </div>
+                <div class="col px-3 px-lg-5 py-1 py-lg-3 mx-auto">
+                    <div class="bg-danger-subtle border rounded p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1 class="display-5 fw-bold my-2">PHP</h1>
+                        <span class="fs-5 fw-bold my-3">Lorem ipsum dolor sit amet.</span>
+                        <button class="btn btn-success rounded-pill text-white fs-6 px-4 fw-bold my-3 mb-4">View More</button>
+                    </div>
+                </div>
+                <div class="col px-3 px-lg-5 py-1 py-lg-3 mx-auto">
+                    <div class="bg-danger-subtle border rounded p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1 class="display-5 fw-bold my-2">PHP</h1>
+                        <span class="fs-5 fw-bold my-3">Lorem ipsum dolor sit amet.</span>
+                        <button class="btn btn-success rounded-pill text-white fs-6 px-4 fw-bold my-3 mb-4">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center pt-4 pb-4 mx-0">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mx-0 mx-lg-auto">
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+                <div class="col px-4 mx-auto py-1 py-lg-3">
+                    <div class="bg-warning-subtle mx-0 mx-lg-3 py-4 justify-content-center align-item-center h-100 border rounded text-center d-flex flex-column">
+                        <h3>All</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mx-0">
+            <div class="container d-flex flex-column justify-content-center align-items-center text-center mx-auto px-1 px-sm-3 px-lg-5">
+                <h1 class="display-3 text-white my-4 fw-bold">Code Editor</h1>
+                <span class="fs-5 text-white fw-bold my-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab!</span>
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center text-center mx-auto my-5">
+                    <img src="codeeditor.gif"class="w-100 h-75 " alt="">
+                    <div class="container  w-75 justify-self-start d-flex flex-column justify-content-start align-item-start my-3 ps-0 ms-0" id="button">
+                        <button type="button" class="btn overflow-hidden text-lg-start btn-success  my-2 border-inherit  rounded py-1 fw-bold text-white"style="width:40%;">Try Frontend Editor(HTML/CSS/JS)</button>
+                        <button type="button" class="btn overflow-hidden w-50 text-lg-start btn-warning bg-warning-subtle text-black  my-2 border-inherit rounded py-1 fw-bold">Try Backend Editor(Python/PHP/Java/C...)</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
